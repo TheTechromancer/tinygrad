@@ -1,3 +1,6 @@
+# this file is meant to showcase how a cuda wmma can be done manually
+# without using nvidia's custom fragments/accumulators
+
 import os
 import numpy as np
 from tinygrad.helpers import flat_mv
